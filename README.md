@@ -49,13 +49,7 @@ This script simplifies the creation of such certificates by automating the proce
 ---
 
 ## How to Use
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/self-signed-cert-generator.git
-   cd self-signed-cert-generator
-   ```
-
-2. **Customize the Script:**
+1. **Customize the Script:**
    Open the script `generate_cert.sh` and edit the following variables to suit your requirements:
    - `COMMON_NAME`
    - `ORGANIZATION`
@@ -66,17 +60,17 @@ This script simplifies the creation of such certificates by automating the proce
    - `EMAIL`
    - `VALIDITY_DAYS`
 
-3. **Make the Script Executable:**
+2. **Make the Script Executable:**
    ```bash
    chmod +x generate_cert.sh
    ```
 
-4. **Run the Script:**
+3. **Run the Script:**
    ```bash
    ./generate_cert.sh
    ```
 
-5. **Output:**
+4. **Output:**
    After successful execution, two files will be generated:
    - `private_key.pem`: The private key.
    - `certificate.pem`: The self-signed X.509 certificate.
